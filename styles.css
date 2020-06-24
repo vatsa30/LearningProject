@@ -1,0 +1,277 @@
+/* Created by Vatsa Shah */
+
+html {
+  height: 810px;
+  width: 1440px;
+}
+
+body {
+   background-color:#FDE3D9;
+   margin:0;
+   padding:0;
+   height: 810px;
+   width: 1440px;
+}
+
+.catanddoglogo{
+  position: absolute;
+  width:194px;
+  height:62px;
+  top: 33px;
+  left: 41px;
+}
+
+.b1 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel-container {
+  position: relative;
+  width:720px;
+  height:810px;
+  float: right;
+  overflow : hidden;
+}
+
+.carousel-slide {
+  display:flex;
+  width:100%;
+}
+
+.lefttext {
+  width: 571px;
+  height: 418px;
+  position: absolute;
+  top :355px;
+  left: 60px;
+}
+
+.firstlefttext {
+  height: 162px;
+  width: 571px;
+  margin: 0;
+  color: #3E3E3E;
+  font-family: "Banana Grotesk Medium";
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 54px;
+}
+
+.secondlefttext {
+  height: 108px;
+  width: 440px;
+  margin: 0;
+  color:#6D6D6D;
+  font-family: "Banana Grotesk Light";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.11px;
+  line-height: 27px;
+}
+
+.buttons {
+  height: 80px;
+  width: 379px;
+  position: absolute;
+  bottom :0px;
+  left: 0px;
+}
+
+.apple {
+  height: 54px;
+  width: 160px;
+  position: absolute;
+  left: 0px;
+  top: 13.33px;
+}
+
+.google {
+  height: 80px;
+  width: 206.72px;
+  position: absolute;
+  left: 172px;
+  top: 13.33px;
+}
+
+.carousel-text {
+  width: 220px;
+  height: 123px;
+  position: absolute;
+  left: 830px;
+  top: 497px;
+}
+
+.firstrighttext {
+  height: 27px;
+  width: 80px;
+  margin: 0;
+  color: #FFFFFF;
+  font-family: "Banana Grotesk Semibold";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.12px;
+  line-height: 27px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+
+.secondrighttext {
+  height: 81px;
+  width: 220px;
+  margin: 0;
+  color: #FFE8DF;
+  font-family: "Banana Grotesk Light";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.11px;
+  line-height: 27px;
+  position: absolute;
+  left: 0px;
+  top: 42px;
+}
+
+.menu {
+  height: 54px;
+  width: 210px;
+  position: absolute;
+  left: 1171px;
+  top: 41px;
+}
+
+.about {
+  height: 27px;
+  width: 35px;
+  color: #F7F7F7;
+  font-family: "Banana Grotesk Semibold";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  text-decoration: none;
+}
+
+.blog {
+  height: 27px;
+  width: 26px;
+  color: #F7F7F7;
+  font-family: "Banana Grotesk Semibold";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  left: 55px;
+  top: 0px;
+  text-decoration: none;
+}
+
+.careers {
+  height: 27px;
+  width: 44px;
+  color: #F7F7F7;
+  font-family: "Banana Grotesk Semibold";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  left: 101px;
+  top: 0px;
+  text-decoration: none;
+}
+
+.contact {
+  height: 27px;
+  width: 46px;
+  color: #F7F7F7;
+  font-family: "Banana Grotesk Semibold";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  left: 164px;
+  top: 0px;
+  text-decoration: none;
+}
+
+.social {
+  height: 16px;
+  width: 145px;
+  margin: 0;
+  position: absolute;
+  left: 1235px;
+  top: 744px;
+}
+
+.facebook {
+  height: 15.24px;
+  width: 7.13px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.instagram {
+  height: 15.24px;
+  width: 15.24px;
+  margin: 0;
+  position: absolute;
+  left: 38.1px;
+  top: 0px;
+}
+
+.twitter {
+  height: 12.72px;
+  width: 15.24px;
+  margin: 0;
+  position: absolute;
+  left: 83.43px;
+  top: 0px;
+}
+
+.linkedin {
+  height: 15.37px;
+  width: 15.24px;
+  margin: 0;
+  position: absolute;
+  left: 129.19px;
+  top: 0px;
+}
+
+.carouseldot {
+  height: 8px;
+  width: 25px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 830px;
+  top: 642px;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  margin: 0;
+  padding: 0;
+  border: 0.5px solid #FEE7DE;
+  border-radius: 2.25px;
+  display: inline-block;
+}
+
+.active {
+  height: 6px;
+  width: 6px;
+  margin: 0;
+  padding: 0;
+  border-radius: 4px;
+  display: inline-block;
+  background-color: #FEE7DE;
+}
+
